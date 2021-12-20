@@ -75,7 +75,7 @@ function calculatorRandom(length) {
       resultValueTrue = primaryNumberValue * secondaryNumberValue;
       break;
     case "/":
-      secondaryNumberValue != 0;
+      secondaryNumber.innerText != 0;
       resultValueTrue = primaryNumberValue / secondaryNumberValue;
       break;
   }
@@ -119,6 +119,7 @@ startBtn.addEventListener("click", () => {
 });
 
 replayBtn.addEventListener("click", () => {
+  clear();
   scoreEle.innerText = "0";
   mins = 0.5;
   secs = mins * 60;
